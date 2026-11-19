@@ -1,0 +1,56 @@
+# R session state
+.RData
+.RDataTmp
+.Rhistory
+.Rproj.user/
+.Ruserdata
+*.Rproj.user
+
+# third-party source cloned in, not ours to commit (see 11a)
+vendor/
+
+# credentials
+*.json
+!*.geojson
+serv-key/
+earthdataLogin.txt
+.Renviron
+.httr-oauth
+.netrc
+_netrc
+.dodsrc
+.env
+
+# data and outputs
+data/
+outputs/
+*.tif
+*.tiff
+*.csv
+superceded/
+plots/
+
+# notebooks
+.ipynb_checkpoints/
+__pycache__/
+
+# OS and Office
+Thumbs.db
+.DS_Store
+desktop.ini
+~$*
+
+# bulky raw spectral downloads (regenerate with script 13)
+data/ausplots_spectra/raw/
+
+# not for the repo
+papers/
+temp/
+/2e - download AusPlots soil spectra.R
+/3d - PROSAIL priors.R
+/3e - PROSAIL network inversion.R
+/3f - filter PROSAIL timeseries.R
+/Rplots.pdf
+/TalksFig.R
+/R/mem_utils.R
+/R/rtmUtils.R
